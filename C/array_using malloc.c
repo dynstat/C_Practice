@@ -24,7 +24,8 @@ int main()
         count += c; /* count increases to give the address of first block of the row (using &pool[count])*/
     }
     
-    free(pool);
+    // freeing the dynamically allocated memory
+    free(pool); 
     free(pool2);
 
     return 0;
